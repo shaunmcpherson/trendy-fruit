@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -43,30 +43,4 @@ body {
 
 .persimmon h2 {
   font-family: Comfortaa, sans-serif;
-}
-
-@media only screen and (min-width: 38em) {
-
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
-  }
-
 }
